@@ -145,14 +145,14 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
               </Link>
               
-              <a
-                href="/Anupam_20225011.pdf"
+              {/* <a
+                href="https://drive.google.com/file/d/1KEouVATmjrqSBYEQkHazFOIg9Vr45sM5/view?usp=drive_link"
                 download="Anupam_Kushwaha_Resume.pdf"
                 className="group flex items-center gap-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 border border-white/20 px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-white/10"
               >
                 <FiDownload className="group-hover:translate-y-0.5 transition-transform duration-300" />
                 Download Resume
-              </a>
+              </a> */}
             </motion.div>
 
             {/* Social Links */}
@@ -163,7 +163,7 @@ const Hero = () => {
               className="flex items-center gap-6 mt-8"
             >
               <a
-                href="https://github.com/anupamkush2003"
+                href="https://github.com/apmkush"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300"
@@ -171,7 +171,7 @@ const Hero = () => {
                 <div className="p-2 bg-white/10 rounded-lg group-hover:bg-white/20 transition-colors duration-300">
                   <FiGithub className="text-xl" />
                 </div>
-                <span className="text-sm">@anupamkush2003</span>
+                <span className="text-sm">@anupamkush</span>
               </a>
               
               <a
@@ -206,7 +206,7 @@ const Hero = () => {
                 {/* Profile Image */}
                 <div className="w-full h-full rounded-full overflow-hidden border border-white/10 bg-gray-800 flex items-center justify-center">
                   <img
-                    src="/Anupam Profile Pic.jpg"
+                    src="/Profile_image.JPG"
                     alt="Anupam Kushwaha"
                     className="w-full h-full object-cover"
                     onError={(e) => {

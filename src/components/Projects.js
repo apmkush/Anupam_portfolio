@@ -16,7 +16,7 @@ const Projects = () => {
         'Built a real-time chat system using Socket.IO with document sharing, enhancing collaboration across study groups and project teams.'
       ],
       tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.io'],
-      github: 'https://github.com/anupamkush2003/vidyaSetu',
+      github: 'https://github.com/apmkush/VidyaSetu',
       live: '',
       image: '/images/vidyaSetu-screenshot.png', // You can replace this with actual screenshot
       period: 'Dec 2024 - Jun 2025',
@@ -31,7 +31,7 @@ const Projects = () => {
         'Integrated Razorpay payment gateway for dealers to pay securely, track subscription status, and choose between 6- or 12-month plans—streamlining monetization.'
       ],
       tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB'],
-      github: 'https://github.com/anupamkush2003/recycleHub',
+      github: 'https://github.com/apmkush/RecycleHub',
       live: '',
       image: '/images/recycleHub-screenshot.png', // You can replace this with actual screenshot
       period: 'Nov 2024 - Dec 2024',
