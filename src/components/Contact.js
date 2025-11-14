@@ -45,7 +45,7 @@ const Contact = () => {
       icon: <FiGithub className="text-xl" />,
       label: 'GitHub',
       value: 'anupamkush2003',
-      link: 'https://github.com/anupamkush2003',
+      link: 'https://github.com/apmkush',
       color: 'text-gray-400'
     }
   ];
@@ -71,7 +71,7 @@ const Contact = () => {
           <p className="text-gray-400 text-lg">Let's work together</p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-1 gap-12 max-w-6xl mx-auto">
           {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -104,7 +104,7 @@ const Contact = () => {
             </div>
 
             {/* Download Resume */}
-            <motion.a
+            {/* <motion.a
               href="/Anupam_20225011.pdf"
               download="Anupam_Kushwaha_Resume.pdf"
               whileHover={{ scale: 1.05 }}
@@ -113,11 +113,11 @@ const Contact = () => {
             >
               <FiDownload />
               Download Resume
-            </motion.a>
+            </motion.a> */}
           </motion.div>
 
           {/* Contact Form */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -182,7 +182,7 @@ const Contact = () => {
                 </motion.p>
               )}
             </form>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
